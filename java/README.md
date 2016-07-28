@@ -1,4 +1,4 @@
-# In this Sanbox:
+# In this Sandbox:
 + add or modify .java files: The Dashboard should reflect new i18n issues 
 + add or modify .properties files as resource bundles with _en.properties for the base file, and _fr.properties for the translated files.
 * The tracked locales are: en (the files to be translated), fr, de, ja, and zh. 
