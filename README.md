@@ -15,7 +15,7 @@ will be shown on the sandbox dashboard, at [sandbox.lingoport.com](http://sandbo
    * $ git checkout working
 3. Make your changes
 4. Commit and push you changes
-   * $ git add <changed files here>
+   * $ git add &lt;changed files here&gt;
    * $ git commit
    * $ git push origin working
 
