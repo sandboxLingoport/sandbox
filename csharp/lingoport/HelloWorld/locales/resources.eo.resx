@@ -43,8 +43,8 @@ end multi-line -->
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="DEMO_KEY_1" xml:space="preserve"><value>[Ţĥîš îš šöɱé ţéẋţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
-    <data name="DEMO_KEY_2" xml:space="preserve"><value>[Ţĥîš îš ɱöŕé ţéšţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
+<data name="DEMO_KEY_1" xml:space="preserve"><value>[Ţĥîš îš šöɱé ţéẋţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
+<data name="DEMO_KEY_2" xml:space="preserve"><value>[Ţĥîš îš ɱöŕé ţéẋţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
 </root>
 
 
