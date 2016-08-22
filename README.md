@@ -5,7 +5,7 @@ Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport's
 Globalyzer. You may commit Java, JavaScript or C# code under the relevant
 folder. Once the code has been pushed to the repository, it will be
 automatically scanned by Globalyzer. Within a couple of minutes, the results
-will be shown on the sandbox dashboard, at [sandbox.lingoport.com](https://sandbox.lingoport.com).
+will be shown on the sandbox dashboard, at [sandbox.lingoport.com](http://sandbox.lingoport.com).
 
 ## Usage
 
@@ -20,7 +20,7 @@ will be shown on the sandbox dashboard, at [sandbox.lingoport.com](https://sandb
    * $ git push origin working
 
 Within a couple of minutes, the Lingoport Sandbox
-[Dashboard](https://sandbox.lingoport.com) will update to include a scan of your changes.
+[Dashboard](http://sandbox.lingoport.com) will update to include a scan of your changes.
 
 ## Notes
 
