@@ -13,7 +13,7 @@ will be shown on the sandbox dashboard, at [sandbox.lingoport.com](http://sandbo
    * $ git clone https://github.com/sandboxLingoport/sandbox.git
 2. Checkout the working branch
    * $ git checkout working
-3. Make your changes
+3. Make your changes under the relevant directory (java/javascript/csharp).
 4. Commit and push you changes
    * $ git add &lt;changed files here&gt;
    * $ git commit
