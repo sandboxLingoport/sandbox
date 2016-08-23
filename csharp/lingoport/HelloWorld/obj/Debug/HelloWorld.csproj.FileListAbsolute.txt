@@ -1,1 +1,5 @@
 C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\bin\Debug\HelloWorld.exe
+C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\obj\Debug\HelloWorld.exe
+C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\obj\Debug\HelloWorld.pdb

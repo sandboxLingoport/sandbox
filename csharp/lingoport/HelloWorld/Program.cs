@@ -17,6 +17,9 @@ namespace HelloWorld
 
             Console.WriteLine(greeting);
             Console.WriteLine(now.ToLongDateString());
+
+            Demo demo = new Demo();
+            demo.doSomething();
         }
     }
 }
