@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Multi-line
-comment above the root
-end multi-line -->
-<!-- Single line comment -->
 <root>
     <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
         <xsd:element msdata:IsDataSet="true" name="root">
