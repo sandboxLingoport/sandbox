@@ -1,0 +1,1 @@
+C:\SourceCode\sandbox\csharp\lingoport\HelloWorld\bin\Debug\HelloWorld.exe.config
