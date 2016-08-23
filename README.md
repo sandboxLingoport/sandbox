@@ -5,7 +5,7 @@ Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport's
 Globalyzer. You may commit Java, JavaScript or C# code under the relevant
 folder. Once the code has been pushed to the repository, it will be
 automatically scanned by Globalyzer. Within a couple of minutes, the results
-will be shown on the sandbox dashboard, at [sandbox.lingoport.com](http://sandbox.lingoport.com).
+will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com).
 
 ## In this Sandbox:
 

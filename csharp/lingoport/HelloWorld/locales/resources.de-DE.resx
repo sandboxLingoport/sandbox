@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+<!--Sandbox_2_9 - FULL-FILE--><!-- Multi-line
+comment above the root
+end multi-line --><!-- Single line comment --><root>
+    <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
         <xsd:element msdata:IsDataSet="true" name="root">
             <xsd:complexType>
                 <xsd:choice maxOccurs="unbounded">
                     <xsd:element name="data">
                         <xsd:complexType>
                             <xsd:sequence>
-                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string" />
-                                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string" />
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
                             </xsd:sequence>
-                            <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" />
-                            <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string" />
-                            <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string" />
+                            <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string"/>
+                            <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+                            <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
                         </xsd:complexType>
                     </xsd:element>
                     <xsd:element name="resheader">
                         <xsd:complexType>
                             <xsd:sequence>
-                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string" />
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
                             </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
                         </xsd:complexType>
                     </xsd:element>
                 </xsd:choice>
@@ -39,8 +41,6 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-<data name="DEMO_KEY_1" xml:space="preserve"><value>[Ţĥîš îš šöɱé ţéẋţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
-<data name="DEMO_KEY_2" xml:space="preserve"><value>[Ţĥîš îš ɱöŕé ţéẋţ îñ Û.Š. Éñĝļîšĥ------------ П國カ내]</value></data>
+    <data name="DEMO_KEY_1" xml:space="preserve"><value>Dies ist ein Text in Englisch (USA)</value></data>
+    <data name="DEMO_KEY_2" xml:space="preserve"><value>Dies ist mehr Text in Englisch (USA)</value></data>
 </root>
-
-
