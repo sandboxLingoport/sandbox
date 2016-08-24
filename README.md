@@ -9,7 +9,7 @@ will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox
 
 ## In this Sandbox:
 
-+ Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files: The Dashboard should reflect new i18n issues
++ Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files: The Dashboard should reflect new i18n issues.
 + Add or modify resource bundles with \_en\_US.(json/properties) / .en-US (resx) for the base files, and \_fr\_FR.(json/properties) / .fr-FR (resx) for the translated files.
 * The tracked locales are: en\_US (the files to be translated), fr\_FR, de\_DE, ja\_JP, and zh\_CN.
   * So for example: messages\_en\_US.properties and messages\_ja\_JP.properties, etc. or errors.en-US.resx and errors.de-DE.resx, etc.
