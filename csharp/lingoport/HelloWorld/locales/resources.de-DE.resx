@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Sandbox_2_9 - FULL-FILE--><!-- Multi-line
-comment above the root
-end multi-line --><!-- Single line comment --><root>
+<!--Sandbox_2_9 - FULL-FILE-->
+<root>
     <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
         <xsd:element msdata:IsDataSet="true" name="root">
             <xsd:complexType>
