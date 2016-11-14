@@ -9,8 +9,7 @@
   <project-path>/var/lib/jenkins/jobs/Lingoport.Lite/workspace</project-path>
   <project-name>Lingoport.Lite</project-name>
 
-  <report-path>/var/lib/jenkins/Lingoport_Data/Dashboard/Projects/Lingoport.Lite
-/GlobalyzerScans</report-path>
+  <report-path>/var/lib/jenkins/Lingoport_Data/Dashboard/Projects/Lingoport.Lite/GlobalyzerScans</report-path>
   <report-type>ScanDetailedXML</report-type>
 
   <scans>
