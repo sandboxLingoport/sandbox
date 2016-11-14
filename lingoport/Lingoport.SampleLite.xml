@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- All items should be allowed anywhere in the xml as long as the heirarchy
-          is preserved -->
 <gzproject>
   <login>
     <username></username>
