@@ -9,6 +9,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		String greeting = "Hello";
+		String greeting2 = "not hello";
 		greeting += " World";
 		String goodbye = " Goodbye World";
 
