@@ -29,7 +29,9 @@ will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox
    * $ git push origin working
 
 Within a couple of minutes, the Lingoport Sandbox
-[Dashboard](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox%3Ascan) will update to include a scan of your changes. Updates you make to English resource files will be automatically translated within 8 hours.
+[Dashboard](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox%3Ascan) will update to include a scan of your changes.
+
+Updates you make to English resource files will be automatically translated within 8 hours. You can see the translation status in the dashboard [here](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox:scan&did=6)
 
 ## Notes
 
