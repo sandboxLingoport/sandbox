@@ -5,7 +5,7 @@ Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport's
 Globalyzer. You may commit Java, JavaScript or C# code under the relevant
 folder. Once the code has been pushed to the repository, it will be
 automatically scanned by Globalyzer. Within a couple of minutes, the results
-will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox%3Ascan).
+will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
 
 ## In this Sandbox:
 
@@ -29,9 +29,9 @@ will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox
    * $ git push origin working
 
 Within a couple of minutes, the Lingoport Sandbox
-[Dashboard](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox%3Ascan) will update to include a scan of your changes.
+[Dashboard](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1) will update to include a scan of your changes.
 
-Updates you make to English resource files will be automatically translated within 8 hours. You can see the translation status in the dashboard [here](http://sandbox.lingoport.com/dashboard/index?id=Lingoport.Sandbox:scan&did=6).
+Updates you make to English resource files will be automatically translated within 8 hours. You can see the translation status in the dashboard [here](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=6).
 
 ## Notes
 
