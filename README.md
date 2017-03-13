@@ -7,6 +7,12 @@ folder. Once the code has been pushed to the repository, it will be
 automatically scanned by Globalyzer. Within a couple of minutes, the results
 will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
 
+
+## Access
+In order to make changes the the sandbox, you will need push/write access. If you have an existing github account, you may request access by [submitting an issue](https://github.com/sandboxLingoport/sandbox/issues). Please specify that you are requesting access, and list all accounts that you would like to have access. 
+
+If you do not have a github account, you may also contact Lingoport via [this form](http://lingoport.com/pd/lingoport-suite-sandbox/) on our web page. We will create a github account for you.
+
 ## In this Sandbox:
 
 + Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files: The Dashboard will reflect any new i18n issues.
