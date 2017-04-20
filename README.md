@@ -43,6 +43,10 @@ Within a couple of minutes, the Lingoport Sandbox
 
 Updates you make to English resource files will be automatically translated within 8 hours. You can see the translation status in the dashboard [here](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=6).
 
+## Need Help?
+
+Contact lingoport support at [support@lingoport.com](mailto:support@lingoport.com)
+
 ## Notes
 
 The 'working' branch will be reset on a weekly basis.
