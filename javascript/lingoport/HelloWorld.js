@@ -2,6 +2,7 @@ var greeting = "Hello";
 greeting += " World!";
 
 var today = new Date();
+var testGreeting = "Hello World!";
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
 
 document.write("<p>" + greeting + "</p>");
