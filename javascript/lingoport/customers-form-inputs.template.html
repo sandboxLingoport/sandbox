@@ -1,0 +1,149 @@
+<div>
+  <ng-form name="customerForm">
+    <div class="u-padding-Hm">
+      <div class="grid">
+        <div class="u-size1of2 grid__cell u-padding-Rxs">
+          <input class="input"
+          type="text"
+          name="givenName"
+          id="given-name"
+          ng-required="!ctrl.formData.company_name"
+          autofocus
+          ng-model="ctrl.formData.given_name"
+          wrap-with-label="Given name">
+          <validation-message error="ctrl.formError" attribute="given_name"></validation-message>
+        </div>
+
+        <div class="u-size1of2 grid__cell u-padding-Lxs">
+          <input class="input"
+          type="text"
+          name="familyName"
+          id="family-name"
+          ng-required="!ctrl.formData.company_name"
+          ng-model="ctrl.formData.family_name"
+          wrap-with-label="Family name">
+          <validation-message error="ctrl.formError" attribute="family_name"></validation-message>
+        </div>
+      </div>
+
+      <input class="input"
+      type="text"
+      name="companyName"
+      id="company-name"
+      ng-model="ctrl.formData.company_name"
+      wrap-with-label="Company name (optional)">
+      <validation-message error="ctrl.formError" attribute="company_name"></validation-message>
+
+      <input class="input"
+      type="email"
+      name="email"
+      id="email"
+      ng-model="ctrl.formData.email"
+      wrap-with-label="Email">
+
+      <validation-message error="ctrl.formError" attribute="email"></validation-message>
+
+      <resource-metadata-toggle
+      class="u-margin-Bm"
+      common-metadata-keys="ctrl.commonMetadataKeys"
+      metadata="ctrl.formData.metadata"
+      form-error="ctrl.formError"></resource-metadata-toggle>
+
+      <div ng-if="ctrl.isEnteringAddress">
+
+        <input class="input"
+        type="text"
+        name="addressLine1"
+        id="address-line1"
+        ng-model="ctrl.formData.address_line1"
+        wrap-with-label="Address line 1">
+
+        <validation-message error="ctrl.formError" attribute="address_line1"></validation-message>
+
+        <input class="input"
+        type="text"
+        name="addressLine2"
+        id="address-line2"
+        ng-model="ctrl.formData.address_line2"
+        wrap-with-label="Address line 2">
+
+        <validation-message error="ctrl.formError" attribute="address_line2"></validation-message>
+
+        <div ng-if="ctrl.formData.address_line2 || ctrl.formData.address_line3">
+          <input class="input"
+          type="text"
+          name="addressLine3"
+          id="address-line3"
+          ng-model="ctrl.formData.address_line3"
+          wrap-with-label="Address line 3">
+          <validation-message error="ctrl.formError" attribute="address_line3"></validation-message>
+        </div>
+
+        <div class="grid">
+          <div class="u-size1of2 grid__cell u-padding-Rxs">
+            <input class="input"
+            type="text"
+            name="city"
+            id="city"
+            ng-model="ctrl.formData.city"
+            wrap-with-label="City">
+            <validation-message error="ctrl.formError" attribute="city"></validation-message>
+          </div>
+
+          <div class="u-size1of2 grid__cell u-padding-Lxs">
+            <input class="input"
+            type="text"
+            name="region"
+            id="region"
+            ng-model="ctrl.formData.region"
+            wrap-with-label="Region">
+            <validation-message error="ctrl.formError" attribute="region"></validation-message>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="u-size1of2 grid__cell u-padding-Rxs">
+            <input class="input"
+            type="text"
+            name="postalCode"
+            id="postal-code"
+            ng-model="ctrl.formData.postal_code"
+            wrap-with-label="Postal code">
+            <validation-message error="ctrl.formError" attribute="postal_code"></validation-message>
+          </div>
+
+          <div class="u-size1of2 grid__cell u-padding-Lxs">
+            <div class="select-container u-full-width">
+              <select class="select-container__select u-full-width"
+              ng-model="ctrl.formData.country_code"
+              id="country-code"
+              aria-label="Country"
+              ng-options="country.code as (country.name + ' (' + country.code + ')') for country in ctrl.countryCodes | orderBy: 'name'"
+              wrap-with-label="Country">
+              </select>
+            </div>
+            <validation-message error="ctrl.formError" attribute="country_code"></validation-message>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button ng-click="ctrl.toggleAddress()"
+    type="button"
+    class="u-text-xs u-color-primary u-margin-Lm form-toggle">
+      <span ng-if="!ctrl.isEnteringAddress">Add address</span>
+      <span class="u-color-secondary" ng-if="ctrl.isEnteringAddress">Remove address</span>
+    </button>
+
+    <advanced-options is-open="ctrl.isAdvancedOptionsOpen">
+      <input class="input"
+      type="text"
+      name="swedishIdentityNumber"
+      id="swedish-identity-number"
+      ng-model="ctrl.formData.swedish_identity_number"
+      wrap-with-label="Swedish Civic/Company Number (Swedish customers only)">
+
+      <validation-message error="ctrl.formError" attribute="swedish_identity_number"></validation-message>
+    </advanced-options>
+  </ng-form>
+</div>
