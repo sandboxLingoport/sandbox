@@ -1,5 +1,5 @@
 var greeting = "Hello";
-greeting += " World!";
+greeting += " World!$$%";
 
 var today = new Date();
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
