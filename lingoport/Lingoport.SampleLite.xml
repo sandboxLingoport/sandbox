@@ -20,5 +20,19 @@
       <ruleset-owner>demo@lingoport.com</ruleset-owner>
       <scan-items/>
     </scan>
+    <scan>
+      <!-- create and execute a single scan with this info -->
+      <scan-name>Chsarp</scan-name>
+      <ruleset-name>Chsarp for Demo</ruleset-name>
+      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-items/>
+    </scan>
+    <scan>
+      <!-- create and execute a single scan with this info -->
+      <scan-name>JavaScript</scan-name>
+      <ruleset-name>Javascript Example</ruleset-name>
+      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-items/>
+    </scan>
   </scans>
 </gzproject>
