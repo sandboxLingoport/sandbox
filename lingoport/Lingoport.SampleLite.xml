@@ -22,8 +22,8 @@
     </scan>
     <scan>
       <!-- create and execute a single scan with this info -->
-      <scan-name>Chsarp</scan-name>
-      <ruleset-name>Chsarp for Demo</ruleset-name>
+      <scan-name>Csharp</scan-name>
+      <ruleset-name>Csharp for Demo</ruleset-name>
       <ruleset-owner>demo@lingoport.com</ruleset-owner>
       <scan-items/>
     </scan>
