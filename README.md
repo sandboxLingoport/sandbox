@@ -34,11 +34,11 @@ Login to github, or create an account if you do not yet have one.
 
 Once logged in, visit this page (https://github.com/sandboxLingoport/sandbox).
 
-Then click on the 'Fork' button on the top right. This will create a version of it for you to modify.
+Then click on the 'Fork' button on the top right. This will create a version of the Sandbox code for you to modify.
 
 
 ### Make changes through the web interface
-You add code for Lingoport Suite analysis on GitHub's website. This is the simplest way.
+You can add code for Lingoport Suite analysis on GitHub's website. This is the simplest way.
 
 1. Open the repository that you cloned
 2. Select the 'working' branch. You may either make changes within this branch, or fork a new branch from it. If you're not sure, just use the 'working' branch.
