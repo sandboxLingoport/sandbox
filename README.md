@@ -28,8 +28,33 @@ We will create a github account for you.
 
 ## Usage
 
+### Fork this repository on GitHub
+
+Login to github, or create an account if you do not yet have one.
+
+Once logged in, visit this page (https://github.com/sandboxLingoport/sandbox).
+
+Then click on the 'Fork' button on the top right. This will create a version of it for you to modify.
+
+
+### Make changes through the web interface
+You add code for Lingoport Suite analysis on GitHub's website. This is the simplest way.
+
+1. Open the repository that you cloned
+2. Select the 'working' branch. You may either make changes within this branch, or fork a new branch from it. If you're not sure, just use the 'working' branch.
+3. Browse to and open one of the existing files.
+4. Look for a pencil-like icon at the top right of the file. This is the 'edit this file' icon. Click on it.
+5. You may now make changes to the file.
+6. Once you are done, scroll down to where the page says 'Commit changes'.
+7. In the 'Commit changes' section, add a comment describing your change.
+8. Click 'Commit changes'.
+
+
+### Clone the repository locally to make your changes
+If you prefer, you may also download the code to your computer.
+
 1. Clone the repository.
-   * $ git clone https://github.com/sandboxLingoport/sandbox.git
+   * $ git clone https://github.com/\<your github username\>/sandbox.git
 2. Checkout the working branch.
    * $ git checkout working
 3. Add Java, JavaScript and/or C# code under the relevant directory.
@@ -38,7 +63,21 @@ We will create a github account for you.
    * $ git commit
    * $ git push origin working
 
-Within a couple of minutes, the Lingoport Sandbox
+### Create a pull request
+
+1. Look for the 'New pull request' button on GitHub at the home of the project you forked.
+2. After clicking 'New pull request', you'll have the option to select the branch and fork to merge.
+    * base fork: Select sandboxLingoport/sandbox
+    * head fork: Select \<your github username\>/sandbox
+    * base: Select 'working'
+    * compare: Select the branch you have made changes to.
+3. Click 'Create pull request' once it appears.
+4. Type in a title and description for the pull request.
+5. Click the 'Create pull request' button again.
+
+Within a couple of minutes, any detected i18n issues will be noted in the pull request by Lingoport automation.
+
+After Lingoport approves the pull request, the Lingoport Sandbox
 [Dashboard](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1) will update to include a scan of your changes.
 
 Updates you make to English resource files will be automatically translated within 8 hours. You can see the translation status in the dashboard [here](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=6).
