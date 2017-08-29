@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gzproject>
+  <login>
+    <username></username>
+    <password></password>
+    <server>https://www.globalyzer.com/gzserver</server>
+  </login>
+
+  <project-path>/var/lib/jenkins/jobs/Lingoport.Lite/workspace</project-path>
+  <project-name>Lingoport.Lite</project-name>
+
+  <report-path>/var/lib/jenkins/Lingoport_Data/Dashboard/Projects/Lingoport.Lite/GlobalyzerScans</report-path>
+  <report-type>ScanDetailedXML</report-type>
+
+  <scans>
+    <scan>
+      <!-- create and execute a single scan with this info -->
+      <scan-name>Java</scan-name>
+      <ruleset-name>Java Rule Set</ruleset-name>
+      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-items/>
+    </scan>
+    <scan>
+      <!-- create and execute a single scan with this info -->
+      <scan-name>Csharp</scan-name>
+      <ruleset-name>Csharp for Demo</ruleset-name>
+      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-items/>
+    </scan>
+    <scan>
+      <!-- create and execute a single scan with this info -->
+      <scan-name>JavaScript</scan-name>
+      <ruleset-name>Javascript Example</ruleset-name>
+      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-items/>
+    </scan>
+  </scans>
+</gzproject>
