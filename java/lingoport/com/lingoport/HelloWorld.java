@@ -11,6 +11,8 @@ public class HelloWorld {
 		String greeting = "Hello";
 		greeting += " World";
 		String goodbye = " Goodbye World";
+		
+		String additional = "Additional embedded string";
 
 		greeting.equalsIgnoreCase(goodbye);
 
