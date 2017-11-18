@@ -10,8 +10,7 @@ will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox
 For more information, view the following [sandbox videos](http://lingoport.com/pd/lingoport-suite-sandbox/#sandbox_videos).
 
 ## Access
-In order to make changes the the sandbox, you will need push/write access. If you have an existing github account, you may request access by [submitting an issue](https://github.com/sandboxLingoport/sandbox/issues). Please specify that you are requesting access, and list all accounts that you would like to have access.
-
+In order to make changes the the sandbox, you will need a github account.
 If you do not have a github account, you may also contact Lingoport via
 [this form](http://lingoport.com/pd/lingoport-suite-sandbox/#demo_form)
 on our web page. Or email [support@lingoport.com](mailto:support@lingoport.com).
