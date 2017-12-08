@@ -2,10 +2,13 @@
 
 ## Welcome
 Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport's
-Globalyzer. You may commit Java, JavaScript or C# code under the relevant
-folder. Once the code has been pushed to the repository, it will be
-automatically scanned by Globalyzer. Within a couple of minutes, the results
-will be shown on the sandbox dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
+Globalyzer. 
+
+To view i18n issues in the current code, visit the Lingoport Dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
+
+You may add Java, JavaScript or C# code. To do so, follow the instructions below. Lingoport recommends first testing with a few hundred lines of code. You may wish to start with ui or other user facing elements, as that is the most frequent place to find internationalization issues. You can also upload custom code with known internationalization issues in order to see if they are detected.
+
+Analysis results will be initially displayed on any GitHub pull requests that you make against this repository. They will be displayed directly on the pull request. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is an example. If Lingoport accepts the pull request, then the results will be included on the [Lingoport Dashboard](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
 
 For more information, view the following [sandbox videos](http://lingoport.com/pd/lingoport-suite-sandbox/#sandbox_videos).
 
@@ -18,10 +21,12 @@ We will create a github account for you.
 
 ## In this Sandbox:
 
-+ Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files: The Dashboard will reflect any new i18n issues.
++ Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files.
+  + New issues will be displayed on any pull requests that you make.
+  + As pull requests are merged, the issues will be included in the Lingoport Dashboard.
 + Add or modify resource bundles.
   + Use filename\_en\_US.(json/properties/resx) for the base files.
-+ Watch as updates to en\_US files are automatically added to fr\_FR, de\_DE, ja\_JP, and zh\_CN resource files then sent for translation.
++ Watch as updates to en\_US files are automatically added to fr\_FR, de\_DE, ja\_JP, and zh\_CN resource files, then sent for translation.
   + So for example: Update messages\_en\_US.properties and watch as other message\_ files, such as messages\_ja\_JP.properties, are updated. Or errors\_en\_US.resx and errors\_de\_DE.resx, etc.
   + Translation updates will occur every 8 hours.
 
@@ -35,11 +40,14 @@ Once logged in, visit this page (https://github.com/sandboxLingoport/sandbox).
 
 Then click on the 'Fork' button on the top right. This will create a version of the Sandbox code for you to modify.
 
+### Making changes
 
-### Make changes through the web interface
+You may make changes to the code directly through the GitHub web interface, or download the code to your computer and make changes there.
+
+#### Make changes through the web interface
 You can add code for Lingoport Suite analysis on GitHub's website. This is the simplest way.
 
-1. Open the repository that you cloned
+1. Open the repository that you cloned.
 2. Select the 'working' branch. You may either make changes within this branch, or fork a new branch from it. If you're not sure, just use the 'working' branch.
 3. Browse to and open one of the existing files.
 4. Look for a pencil-like icon at the top right of the file. This is the 'edit this file' icon. Click on it.
@@ -49,7 +57,7 @@ You can add code for Lingoport Suite analysis on GitHub's website. This is the s
 8. Click 'Commit changes'.
 
 
-### Clone the repository locally to make your changes
+#### Clone the repository locally to make your changes
 If you prefer, you may also download the code to your computer.
 
 1. Clone the repository.
@@ -87,4 +95,4 @@ Contact lingoport support at [support@lingoport.com](mailto:support@lingoport.co
 
 ## Notes
 
-The 'working' branch will be reset on a weekly basis.
+The 'working' branch will be reset every two weeks.
