@@ -7,16 +7,17 @@ Globalyzer results on the Lingoport Dashboard.
 ### Viewing example issues
 To view i18n issues in current, sample code, visit the Lingoport Dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1). The left side of the Dashboard shows Globalyzer i18n results. The right side shows Lingoport Resource Manager (LRM) translation status. Feel free to explore the Dashboard and click on anything of interest. If you get lost, click on the green logo in the upper left hand corner. Then click on 'Lingoport.Sandbox'. 
 
-On the left hand side (Globalyzer) you can click on the number next to issue types such as 'Concatenations' or 'Embedded Strings'. There you will then see examples of these issues. Double-click on the center of the red issue bars to view the actual source code with the specific issue highlighted.
+On the left hand side (Globalyzer) you can click on the number next to issue types such as 'Concatenations' or 'Embedded Strings'. There you will see examples of these issues. Double-click on the center of the red issue bars to view the actual source code with the specific issue highlighted.
 
 ### Making your own modifications
-You may add to or modify the existing Java, JavaScript or C# code in this sample. Initially the scan results will not appear on the Dashboard but they will be available on GitHub. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is and example. Once your changes are accepted by a Lingoport Administrator, they will then appear on the Dashboard. 
+You may add to or modify the existing code in this sample. The Sandbox only supports Java, JavaScript or C#. For a full list of supported programming Languages, see our [FAQ](http://wiki.lingoport.com/General_FAQ#What_programming_languages_does_Globalyzer_support.3F).
+
+Initially the scan results will not appear on the Dashboard but they will be available on GitHub. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is an example. Once your changes are accepted by a Lingoport Administrator, they will appear on the Dashboard. 
 
 To make your own changes, follow the instructions below. Lingoport recommends testing with up to two hundred lines of code in the Sandbox. If you add your own code, please use UI or other user facing elements, since that is where most internationalization issues are located.
 
 ## Instructions for making modifications
 
-### Access
 In order to make changes the the sandbox, you will need a GitHub account.
 If you do not have a GitHub account, you may also contact Lingoport via
 [this form](http://lingoport.com/pd/lingoport-suite-sandbox/#demo_form)
