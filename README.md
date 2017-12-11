@@ -10,22 +10,20 @@ To view i18n issues in current, sample code, visit the Lingoport Dashboard at [s
 On the left hand side (Globalyzer) you can click on the number next to issue types such as 'Concatenations' or 'Embedded Strings'. There you will then see examples of these issues. Double-click on the center of the red issue bars to view the actual source code with the specific issue highlighted.
 
 ### Making your own modifications
-You may add to or modify the existing Java, JavaScript or C# code in this sample. Initially the scan results will not appear on the Dashboard but they will be available on GitHub. Once your changes are accepted by a Lingoport Administrator, they will then appear on the Dashboard. 
+You may add to or modify the existing Java, JavaScript or C# code in this sample. Initially the scan results will not appear on the Dashboard but they will be available on GitHub. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is and example. Once your changes are accepted by a Lingoport Administrator, they will then appear on the Dashboard. 
 
 To make your own changes, follow the instructions below. Lingoport recommends testing with up to two hundred lines of code in the Sandbox. If you add your own code, please use UI or other user facing elements, since that is where most internationalization issues are located.
 
-Analysis results will be initially displayed on any GitHub pull requests that you make against this repository. They will be displayed directly on the pull request. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is an example. If Lingoport accepts the pull request, then the results will be included on the [Lingoport Dashboard](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
+## Instructions for making modifications
 
-For more information, view the following [sandbox videos](http://lingoport.com/pd/lingoport-suite-sandbox/#sandbox_videos).
-
-## Access
-In order to make changes the the sandbox, you will need a github account.
-If you do not have a github account, you may also contact Lingoport via
+### Access
+In order to make changes the the sandbox, you will need a GitHub account.
+If you do not have a GitHub account, you may also contact Lingoport via
 [this form](http://lingoport.com/pd/lingoport-suite-sandbox/#demo_form)
 on our web page. Or email [support@lingoport.com](mailto:support@lingoport.com).
-We will create a github account for you.
+We will create a GitHub account for you.
 
-## In this Sandbox:
+### In this Sandbox:
 
 + Add or modify C# (.cs), Javascript (.js, .html) and Java (.java) files.
   + New issues will be displayed on any pull requests that you make.
@@ -36,21 +34,21 @@ We will create a github account for you.
   + So for example: Update messages\_en\_US.properties and watch as other message\_ files, such as messages\_ja\_JP.properties, are updated. Or errors\_en\_US.resx and errors\_de\_DE.resx, etc.
   + Translation updates will occur every 8 hours.
 
-## Usage
+### Usage
 
-### Fork this repository on GitHub
+#### Fork this repository on GitHub
 
-Login to github, or create an account if you do not yet have one.
+Login to GitHub, or create an account if you do not yet have one.
 
 Once logged in, visit this page (https://github.com/sandboxLingoport/sandbox).
 
 Then click on the 'Fork' button on the top right. This will create a version of the Sandbox code for you to modify.
 
-### Making changes
+#### Making changes
 
 You may make changes to the code directly through the GitHub web interface, or download the code to your computer and make changes there.
 
-#### Make changes through the web interface
+##### Make changes through the web interface
 You can add code for Lingoport Suite analysis on GitHub's website. This is the simplest way.
 
 1. Open the repository that you cloned.
@@ -63,7 +61,7 @@ You can add code for Lingoport Suite analysis on GitHub's website. This is the s
 8. Click 'Commit changes'.
 
 
-#### Clone the repository locally to make your changes
+##### Clone the repository locally to make your changes
 If you prefer, you may also download the code to your computer.
 
 1. Clone the repository.
@@ -76,12 +74,12 @@ If you prefer, you may also download the code to your computer.
    * $ git commit
    * $ git push origin working
 
-### Create a pull request
+#### Create a pull request
 
 1. Look for the 'New pull request' button on GitHub at the home of the project you forked.
 2. After clicking 'New pull request', you'll have the option to select the branch and fork to merge.
     * base fork: Select sandboxLingoport/sandbox
-    * head fork: Select \<your github username\>/sandbox
+    * head fork: Select \<your GitHub username\>/sandbox
     * base: Select 'working'
     * compare: Select the branch you have made changes to.
 3. Click 'Create pull request' once it appears.
@@ -102,3 +100,7 @@ Contact lingoport support at [support@lingoport.com](mailto:support@lingoport.co
 ## Notes
 
 The 'working' branch will be reset every two weeks.
+
+## Additional information
+
+For more information, view the following [sandbox videos](https://vimeo.com/132981221).
