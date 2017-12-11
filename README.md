@@ -1,18 +1,12 @@
 # Sandbox Readme
 
 ## Welcome
-Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport
-Globalyzer results on the Lingoport Dashboard.
+Welcome to the Lingoport Sandbox. Use the sandbox to get a feel for Lingoport's
+Globalyzer. 
 
-### Viewing example issues
-To view i18n issues in current, sample code, visit the Lingoport Dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1). The left side of the Dashboard shows Globalyzer i18n results. The right side shows Lingoport Resource Manager (LRM) translation status. Feel free to explore the Dashboard and click on anything of interest. If you get lost, click on the green logo in the upper left hand corner. Then click on 'Lingoport.Sandbox'. 
+To view i18n issues in the current code, visit the Lingoport Dashboard at [sandbox.lingoport.com](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
 
-On the left hand side (Globalyzer) you can click on the number next to issue types such as 'Concatenations' or 'Embedded Strings'. There you will then see examples of these issues. Double-click on the center of the red issue bars to view the actual source code with the specific issue highlighted.
-
-### Making your own modifications
-You may add to or modify the existing Java, JavaScript or C# code in this sample. Initially the scan results will not appear on the Dashboard but they will be available on GitHub. Once your changes are accepted by a Lingoport Administrator, they will then appear on the Dashboard. 
-
-To make your own changes, follow the instructions below. Lingoport recommends testing with up to two hundred lines of code in the Sandbox. If you add your own code, please use UI or other user facing elements, since that is where most internationalization issues are located.
+You may add Java, JavaScript or C# code. To do so, follow the instructions below. Lingoport recommends first testing with a few hundred lines of code. You may wish to start with ui or other user facing elements, as that is the most frequent place to find internationalization issues. You can also upload custom code with known internationalization issues in order to see if they are detected.
 
 Analysis results will be initially displayed on any GitHub pull requests that you make against this repository. They will be displayed directly on the pull request. [Here](https://github.com/sandboxLingoport/sandbox/pull/17) is an example. If Lingoport accepts the pull request, then the results will be included on the [Lingoport Dashboard](http://sandbox.lingoport.com/dashboard?id=Lingoport.Sandbox%3Ascan&did=1).
 
