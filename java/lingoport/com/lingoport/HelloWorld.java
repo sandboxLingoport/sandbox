@@ -12,6 +12,7 @@ public class HelloWorld {
 		greeting += " World";
 		String goodbye = " Goodbye World";
 		String Seeyou = "See you tomorrow"
+		String test = "this is for testing purpose"
 
 		greeting.equalsIgnoreCase(goodbye);
 
