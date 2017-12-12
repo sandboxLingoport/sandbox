@@ -11,6 +11,7 @@ public class HelloWorld {
 		String greeting = "Hello";
 		greeting += " World";
 		String goodbye = " Goodbye World";
+		String Seeyou = "See you tomorrow"
 
 		greeting.equalsIgnoreCase(goodbye);
 
