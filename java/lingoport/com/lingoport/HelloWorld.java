@@ -17,6 +17,9 @@ public class HelloWorld {
 
 		DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.DEFAULT);
 		String dateString = dateFormatter.format(new Date());
+		
+		CustomDateObject customDateObject = new customDateObject();
+		customDateObject.MyExampleMethod()
 
 		Double inputNum = new Double("2.57");
 
