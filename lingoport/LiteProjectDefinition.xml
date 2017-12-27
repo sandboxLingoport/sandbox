@@ -17,7 +17,7 @@
   <project-name>Lingoport.sandbox</project-name>
   <report-path>globalyzer-lite-reports</report-path>
   <report-type>ScanDetailedXML</report-type>
-  <data-dictionary-location>C:/Users/Olivier/.globalyzer-6.0.7</data-dictionary-location>
+  <data-dictionary-location></data-dictionary-location>
   <filter-with-dictionary>true</filter-with-dictionary>
   <scan-timeout>120</scan-timeout>
   <generate-partial-results>false</generate-partial-results>
