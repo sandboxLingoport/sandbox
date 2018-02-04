@@ -10,6 +10,9 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		String greeting = "Hello";
 		greeting += " World";
+		
+		String scotssString = "Hello Scott";
+		
 		String goodbye = " Goodbye World";
 		String Seeyou = "See you tomorrow"
 
