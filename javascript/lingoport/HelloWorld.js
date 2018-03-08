@@ -1,6 +1,8 @@
 var greeting = "Hello";
 greeting += " World!";
 
+var additionalString = "Additional String to JS."
+
 var today = new Date();
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
 
