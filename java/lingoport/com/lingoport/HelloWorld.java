@@ -11,8 +11,9 @@ public class HelloWorld {
 		String greeting = "Hello";
 		greeting += " World";
 		String goodbye = " Goodbye World";
-		String newIssue = " A wild issue appeared!"
-		String Seeyou = "See you tomorrow
+		String newIssue = " A wild issue appeared!";
+		String issueBattle = "An issue battle occurred...";
+		String Seeyou = "See you tomorrow";
 		String additional = "Additional embedded string";
 
 		greeting.equalsIgnoreCase(goodbye);
