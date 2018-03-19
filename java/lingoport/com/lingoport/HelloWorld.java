@@ -11,13 +11,16 @@ public class HelloWorld {
 		String greeting = "Hello";
 		greeting += " World";
 		String goodbye = " Goodbye World";
-		
+		String Seeyou = "See you tomorrow
 		String additional = "Additional embedded string";
-
+    
 		greeting.equalsIgnoreCase(goodbye);
 
 		DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.DEFAULT);
 		String dateString = dateFormatter.format(new Date());
+		
+		CustomDateObject customDateObject = new customDateObject();
+		customDateObject.MyExampleMethod()
 
 		Double inputNum = new Double("2.57");
 
