@@ -1,0 +1,22 @@
+{
+    "name": "loctest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "debug": "node --inspect-brk=9222 index.js",
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "body-parser": "^1.18.3",
+      "cookie-parser": "^1.4.3",
+      "ejs": "^2.6.1",
+      "express": "^4.16.3",
+      "jquery": "^3.3.1"
+    }
+  }
+  

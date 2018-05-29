@@ -1,5 +1,24 @@
-<head/>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+  <title>I will display &#75; &#40; \&#43;\'s </title>
+  <script src="./public/js/test.js"></script>
+</head>
+
 <body>
+  <h1>This is a title </h1>
+
+  <button id='TestDate' onclick="dateMethod()">ClickMe</button>
+  <pre id='dateResult'></pre> User Name:
+  <input type="text" id="userName">
+  <button type="button" onclick="submitName()">Name</button>
+  <p id="demo"></p>
+
+  <button type="button" onclick="getRandomCharacter()">Random Character</button>
+  <pre id="randomCharacter"></pre>
+
+
   <script>
     var greeting = "Hello";
     greeting += " World!";
@@ -13,7 +32,14 @@
     document.write("<p>" + "Parsing '2.570', it's a very small number in the U.S, but very large in Europe!")
     document.write(" Result: " + parseFloat("2.570") + "</p>")
 
+
     var logMessage = "Logging Message - Don't translate me";
     console.log(logMessage);
+
+
+
+
   </script>
 </body>
+
+</html>
