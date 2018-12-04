@@ -2,7 +2,7 @@ var greeting = "Hello";
 greeting += " World!";
 
 var today = new Date();
-var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
+var dateString = '11/12/20015'; //today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
 
 document.write("<p>" + greeting + "</p>");
 document.write("<p>" + "Displaying date in M/dd/yy format:" + "</p>");
