@@ -1,6 +1,8 @@
 var greeting = "Hello";
 greeting += " World!";
 
+var newText = "Confirming detection of i18n embedded string.";
+
 var today = new Date();
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
 
@@ -12,3 +14,6 @@ document.write(" Result: " + parseFloat("2.570") + "</p>")
 
 var logMessage = "Logging Message - Don't translate me";
 console.log(logMessage);
+angular.module('suite-installer', [
+            'company'
+        ])
