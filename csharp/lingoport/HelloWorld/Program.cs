@@ -8,6 +8,14 @@ namespace HelloWorld
 {
     class Program
     {
+        static void Resx()
+        {
+            String greeting = Properties.Resource1.Hello;
+            greeting += " " + Properties.Resource1.World;
+
+            Console.WriteLine(greeting);
+        }
+        
         static void Main(string[] args)
         {
             String greeting = "Hello";
