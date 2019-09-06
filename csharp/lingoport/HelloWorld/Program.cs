@@ -8,6 +8,20 @@ namespace HelloWorld
 {
     class Program
     {
+        static void Sample()
+        {
+            String greeting = "Hello";
+            greeting += " World!";
+
+            Console.WriteLine(greeting);
+            
+            var ski = 2;
+            
+            String s = "I have " + ski.ToString() + " skis";
+
+            Console.WriteLine(s);
+        }
+        
         static void Main(string[] args)
         {
             String greeting = "Hello";
