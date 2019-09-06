@@ -8,40 +8,13 @@ namespace HelloWorld
 {
     class Program
     {
-        static void HomeBrew()
-        {
-            var ski = 2;
-            String s;
-
-            if (ski == 1)
-              s = String.Format("I have {0} ski.", ski);
-            else
-              s = String.Format("I have {0} skis.", ski);
-
-            Console.WriteLine(s);
-        }
-        
-        static void Sample()
-        {
-            String greeting = "Hello";
-            greeting += " World!";
-
-            Console.WriteLine(greeting);
-            
-            var ski = 2;
-            
-            String s = "I have " + ski.ToString() + " skis";
-
-            Console.WriteLine(s);
-        }
-        
         static void Main(string[] args)
         {
             String greeting = "Hello";
             greeting += " World!";
 
-            String greeting2 = "Hello2";
-            greeting2 += " World2!";
+            String greeting2 = "You have a small car";
+            greeting2 += " that has a very nice color.";
 
             DateTime now = DateTime.Now;
 
