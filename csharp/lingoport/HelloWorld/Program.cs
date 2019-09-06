@@ -13,8 +13,8 @@ namespace HelloWorld
             String greeting = "Hello";
             greeting += " World!";
 
-            String greeting2 = "Second Hello2";
-            greeting2 += " World Again!";
+            String greeting2 = "This is";
+            greeting2 += " a sample!";
 
             DateTime now = DateTime.Now;
 
