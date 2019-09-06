@@ -11,7 +11,7 @@ namespace HelloWorld
         static void Resx()
         {
             String greeting = Properties.Resource1.Hello;
-            greeting += " " + Properties.Resource1.World;
+            greeting += Properties.Resource1.World;
 
             Console.WriteLine(greeting);
         }
