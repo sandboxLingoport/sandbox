@@ -12,8 +12,12 @@ namespace HelloWorld
         {
             String greeting = Properties.Resource1.Hello;
             greeting += Properties.Resource1.World;
+            
+             String greeting2 = "You have a small bike";
+            greeting2 += " that has a very nice color.";
 
             Console.WriteLine(greeting);
+            Console.WriteLine(greeting2);
         }
         
         static void Main(string[] args)
