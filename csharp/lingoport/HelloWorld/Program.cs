@@ -14,7 +14,7 @@ namespace HelloWorld
             greeting += " World!";
 
             String greeting2 = "Hello2";
-            greeting += " World2!";
+            greeting2 += " World2!";
 
             DateTime now = DateTime.Now;
 
