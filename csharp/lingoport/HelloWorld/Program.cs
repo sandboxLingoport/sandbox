@@ -13,10 +13,15 @@ namespace HelloWorld
             String greeting = "Hello";
             greeting += " World!";
 
+            String greeting2 = "Hello2";
+            greeting += " World2!";
+
             DateTime now = DateTime.Now;
 
             Console.WriteLine(greeting);
             Console.WriteLine(now.ToLongDateString());
+
+            Console.WriteLine(greeting2);
 
             Demo demo = new Demo();
             demo.doSomething();
