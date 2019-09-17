@@ -21,6 +21,8 @@ namespace HelloWorld
         {
             asci.GetBytes("Hello");
             lowercase.ToUpper();
+            String greeting = "Hello";
+            greeting += " World!";
         }
     }
 }
