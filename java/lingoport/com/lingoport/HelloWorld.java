@@ -15,6 +15,7 @@ public class HelloWorld {
 		String issueBattle = "An issue battle occurred...";
 		String Seeyou = "See you tomorrow";
 		String additional = "Additional embedded string";
+		String anotherUpdate = "Updates presented again";
 
 		greeting.equalsIgnoreCase(goodbye);
 
