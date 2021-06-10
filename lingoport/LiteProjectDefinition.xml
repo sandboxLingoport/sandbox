@@ -4,7 +4,7 @@
     <username></username>
     <password></password>
     <server>https://www.globalyzer.com/gzserver</server>
-    <use-local-rulesets>true</use-local-rulesets>
+    <use-local-rulesets>false</use-local-rulesets>
   </login>
 
   <project-path>/var/lib/jenkins/jobs/Lingoport.Lite/workspace</project-path>
