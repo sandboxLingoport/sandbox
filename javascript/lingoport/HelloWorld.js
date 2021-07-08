@@ -1,6 +1,9 @@
 var greeting = "Hello";
 greeting += " World!";
 
+var newText = "Confirming detection of i18n embedded string.";
+var moreNewText = "More new text to scan.";
+
 var today = new Date();
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
 
